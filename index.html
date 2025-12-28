@@ -3,81 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>আজকের খবর - News Portal</title>
-    
+    <title>আজকের ব্রেকিং নিউজ</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; background: #f0f2f5; color: #333; }
-        header { background: #0044cc; color: #fff; padding: 15px 5%; text-align: center; border-bottom: 4px solid #003399; }
-        nav { background: #fff; padding: 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        nav a { margin: 0 15px; text-decoration: none; color: #0044cc; font-weight: bold; }
-        
-        .container { width: 90%; max-width: 1000px; margin: 20px auto; display: flex; flex-wrap: wrap; gap: 20px; }
-        .main-content { flex: 2; background: #fff; padding: 20px; border-radius: 8px; }
-        .sidebar { flex: 1; background: #fff; padding: 20px; border-radius: 8px; min-width: 250px; }
-        
-        .ad-box { background: #f9f9f9; border: 1px dashed #ccc; margin: 15px 0; text-align: center; padding: 10px; overflow: hidden; }
-        .news-image { width: 100%; height: auto; border-radius: 5px; }
-        
-        footer { background: #333; color: #fff; text-align: center; padding: 20px; margin-top: 50px; }
-        h1, h2 { color: #0044cc; }
-        .btn { display: inline-block; background: #0044cc; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
-        
-        @media (max-width: 768px) { .container { flex-direction: column; } }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; background: #f0f2f5; color: #1c1e21; }
+        header { background: #0044cc; color: #fff; padding: 20px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .container { width: 95%; max-width: 800px; margin: 20px auto; background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 24px; }
+        h2 { color: #0044cc; font-size: 20px; margin-top: 15px; }
+        .news-img { width: 100%; height: auto; border-radius: 6px; display: block; margin-bottom: 15px; }
+        .content p { font-size: 16px; color: #444; margin-bottom: 15px; }
+        .btn { display: inline-block; background: #0044cc; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; text-align: center; }
+        .btn:hover { background: #0033aa; }
+        footer { text-align: center; padding: 20px; font-size: 14px; color: #777; border-top: 1px solid #ddd; margin-top: 30px; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>আজকের খবর</h1>
-    <p>সর্বশেষ সংবাদ সবার আগে</p>
-</header>
+    <header>
+        <h1>নিউজ পোর্টাল ২৪</h1>
+    </header>
 
-<nav>
-    <a href="#">বাংলাদেশ</a> | <a href="#">আন্তর্জাতিক</a> | <a href="#">খেলাধুলা</a> | <a href="#">বিনোদন</a>
-</nav>
-
-<div class="container">
-    <div class="ad-box">
-        <small>বিজ্ঞাপন</small>
-        </div>
-</div>
-
-<div class="container">
-    <main class="main-content">
-        <article>
-            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80" alt="News" class="news-image">
-            <h2>বিশ্ববাজারে বড় পরিবর্তনের সম্ভাবনা</h2>
-            <p>আজকের বিশেষ প্রতিবেদনে উঠে এসেছে বিশ্ব অর্থনীতির বর্তমান পরিস্থিতি। বিশেষজ্ঞরা মনে করছেন সামনের দিনগুলোতে প্রযুক্তির ব্যবহার আরও বাড়বে...</p>
-            <a href="#" class="btn">আরও পড়ুন</a>
-        </article>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1585829365234-7921f85a4042?auto=format&fit=crop&w=800&q=80" alt="News Image" class="news-img">
         
-        <div class="ad-box">
-            <small>বিজ্ঞাপন</small>
-            </div>
+        <div class="content">
+            <h2>অবশেষে বড় পরিবর্তনের ঘোষণা!</h2>
+            <p>আজকের বিশেষ প্রতিবেদনে আমরা তুলে ধরছি দেশ-বিদেশের গুরুত্বপূর্ণ খবর। প্রযুক্তির নতুন ব্যবহার থেকে শুরু করে দৈনন্দিন জীবনের নানা সমস্যার সমাধান নিয়ে কাজ করছে সরকার। বিস্তারিত জানতে নিচের লিঙ্কে ক্লিক করুন।</p>
+            
+            <p>আমাদের সংবাদ পোর্টালটি ভিজিট করার জন্য আপনাকে ধন্যবাদ। সর্বশেষ আপডেট পেতে নিয়মিত আমাদের সাথে থাকুন।</p>
+            
+            <a href="#" class="btn">বিস্তারিত পড়তে এখানে ক্লিক করুন</a>
+        </div>
+    </div>
 
-        <article>
-            <h2>খেলার জগতের সর্বশেষ আপডেট</h2>
-            <p>আসন্ন টুর্নামেন্টকে কেন্দ্র করে প্রস্তুতি শুরু করেছে সব বড় দলগুলো। দর্শকদের মনে বাড়ছে উত্তেজনা...</p>
-        </article>
-    </main>
+    <footer>
+        <p>&copy; 2025 News Portal | Powered by GitHub Pages</p>
+    </footer>
 
-    <aside class="sidebar">
-        <h3>জনপ্রিয় খবর</h3>
-        <ul>
-            <li><a href="#">নতুন স্মার্টফোনের রিভিউ</a></li>
-            <li><a href="#">শীতকালীন ভ্রমণের সেরা জায়গা</a></li>
-            <li><a href="#">রান্নার নতুন কিছু টিপস</a></li>
-        </ul>
-
-        <div class="ad-box">
-            <small>বিজ্ঞাপন</small>
-            </div>
-    </aside>
-</div>
-
-<footer>
-    <p>&copy; 2024 আজকের খবর | GitHub Pages এ হোস্ট করা</p>
-</footer>
+    <script src="https://pl28351091.effectivegatecpm.com/1f/d9/62/1fd962a2322a4feb1864bc31f0b22f30.js"></script>
 
 </body>
 </html>
